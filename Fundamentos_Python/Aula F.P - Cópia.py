@@ -6,6 +6,6 @@ idade= 54                      #integer   int
 pi= 3.1415                     #float     float
 amazenamento_cheio = False     #bool      bool
 
-                                #type 
+Primeiro corintius
 # permite fazer o comentario de linha simples
 
