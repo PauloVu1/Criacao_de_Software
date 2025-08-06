@@ -1,0 +1,8 @@
+#Exercício 2 - ciclo while
+
+numero = int(input("Introduza um numero "))
+while numero != 0:
+    print(f"O numero introduzido foi {numero}")
+print("O programa será terminado! ")
+     
+ 

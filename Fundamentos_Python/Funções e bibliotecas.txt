@@ -1,0 +1,180 @@
+** Funções a pesquisar:
+
+| Nº | Biblioteca   | Função     |
+| -- | ------------ | ---------- |
+| 1  | `math`       | `sqrt`     |
+| 2  | `random`     | `randint`  |
+| 3  | `re`         | `match`    |
+| 4  | `os`         | `makedirs` |
+| 5  | `itertools`  | `product`  |
+| 6  | `datetime`   | `datetime` |
+| 7  | `functools`  | `reduce`   |
+| 8  | `json`       | `loads`    |
+| 9  | `statistics` | `mean`     |
+| 10 | `builtins`   | `sorted`   |
+
+** Funções mais complexas (opcional)
+
+| Nº | Biblioteca          | Função     |
+| -- | ------------------- | ---------- |
+| 11 | `pandas`            | `read_csv` |
+| 12 | `numpy`             | `linspace` |
+| 13 | `matplotlib.pyplot` | `plot`     |
+| 14 | `requests`          | `get`      |
+
+** Modelo de resposta (a preencher para cada função):
+
+Função:sqrt
+Biblioteca: math
+    
+Número de argumentos: 1
+- z.
+
+(Indica se são obrigatórios ou opcionais)
+
+Descrição resumida:
+Retorna a raiz quadrada de z. Este tem o mesmo corte de ramificação que log().
+
+Exemplo de uso:
+
+Link da documentação:
+https://docs.python.org/pt-br/3.13/library/cmath.html#cmath.sqrt
+_____________________________________________________________________________ 
+
+Função:randint
+Biblioteca: random
+    
+Número de argumentos: 2
+Argumentos: 
+- a 
+- b
+
+(Indica se são obrigatórios ou opcionais)
+
+
+Descrição resumida:
+Retorna um inteiro aleatório N de forma que a <= N <= b. Apelido para randrange(a, b+1).
+
+Exemplo de uso:
+
+
+Link da documentação:
+
+https://docs.python.org/pt-br/3.13/library/random.html#random.randint
+
+
+Função:match
+Biblioteca: re
+    
+Número de argumentos: 3
+Argumentos: 
+- pattern
+- string
+- flags=0
+
+(Indica se são obrigatórios ou opcionais)
+
+
+Descrição resumida:
+Se zero ou mais caracteres no início da string corresponderem ao padrão pattern da expressão regular, retorna um Match correspondente. Retorna None se a string não corresponder ao padrão; observe que isso é diferente de uma correspondência de comprimento zero.
+
+
+Link da documentação:
+
+https://docs.python.org/pt-br/3.13/library/re.html#re.match
+
+
+Função: makedirs
+Biblioteca: os
+    
+Número de argumentos: 
+Argumentos:3 
+- name
+- mode=0o777
+- exist_ok=False
+
+(Indica se são obrigatórios ou opcionais)
+
+
+Descrição resumida:
+Função de criação recursiva de diretório. Como mkdir(), mas cria todos os diretórios de nível intermediário necessários para conter o diretório folha.
+
+Link da documentação:
+https://docs.python.org/pt-br/3.13/library/os.html#os.makedirs
+
+
+
+Função:itertools
+Biblioteca:product 
+    
+Número de argumentos: 2
+Argumentos: 
+- iterables
+- repeat=1
+
+(Indica se são obrigatórios ou opcionais)
+
+
+Descrição resumida:
+Aproximadamente equivalente a laços for aninhados em uma expressão geradora. Por exemplo, product(A, B) devolve o mesmo que ((x,y) for x in A for y in B).
+
+Link da documentação:
+https://docs.python.org/pt-br/3.13/library/itertools.html#itertools.product
+
+
+Função:
+Biblioteca: 
+    
+Número de argumentos: 
+Argumentos: 
+- 
+
+(Indica se são obrigatórios ou opcionais)
+
+
+Descrição resumida:
+
+
+Link da documentação:
+
+
+
+
+
+Função:
+Biblioteca: 
+    
+Número de argumentos: 
+Argumentos: 
+- 
+
+(Indica se são obrigatórios ou opcionais)
+
+
+Descrição resumida:
+
+
+Link da documentação:
+
+
+
+
+Função:
+Biblioteca: 
+    
+Número de argumentos: 
+Argumentos: 
+- 
+
+(Indica se são obrigatórios ou opcionais)
+
+
+Descrição resumida:
+
+
+Link da documentação:
+
+
+
+
+
